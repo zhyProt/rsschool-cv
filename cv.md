@@ -59,7 +59,6 @@ But you can see my study projects at [Github](https://github.com/zhyProt)
 
 * August — December 2020: HTML/CSS developer - [ITILOGIA](https://itlogia.ru/)
 * January 2020: Web-developer - [UDEMY](https://www.udemy.com/course/webdeveloper/)
-* January 2020 - continue: JavaScript + React [UDEMY](https://www.udemy.com/course/javascript_full/)
 
 **English**
 
