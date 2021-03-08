@@ -1,4 +1,3 @@
 # rsschool-cv
 
-
-https://zhyprot.github.io/rsschool-cv/cv.md
+https://zhyProt.github.io/rsschool-cv
