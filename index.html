@@ -5,13 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ivan Zhymec - CV</title>
-
-    <link rel="stylesheet" href="css/style.css">
 </head>
   <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
-/* Common styles */
 html, 
 body {
   height: 100%;
@@ -44,7 +41,6 @@ p {
   text-align: center;
 }
 
-/* Content section */
 header {
   border-bottom: 1px solid #333;
 }
@@ -62,7 +58,7 @@ section {
 
 .personal-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -71,7 +67,7 @@ section {
 }
 
 .avatar img {
-    width: 80%;
+    width: 100%;
 }
 
 .email {
@@ -142,39 +138,40 @@ footer a {
     <section>
             <div class="personal-info">
                 <div class="avatar">
+                  <img src="content.png" alt="avatar picture">
                 </div>
                 <div class="contact">
                     <h2>Ivan Zhymec</h2>
                     <ul>
-                        <li><a class="email" href="mailto:serj_navii@mail.ru">fasreton@protonmail.com</a></li>
+                        <li><a class="email" href="mailto:fasreton@protonmail.com">fasreton@protonmail.com</a></li>
                         <li><a href="tel:+375257855668">Tel: +375 (25) 78-55-66-8</a></li>
                     </ul>
                 </div>
             </div>
             <div class="bio">
                 <h3>Bio</h3>
-                <p>I am 39 years old. I worked 15 in the automotive 
+                <article>I am 39 years old. I worked 15 in the automotive 
                     Now I am studying web programming. since I am a person
                     with an engineering type of thinking, programming is easier and I get 
-                    pleasure along the way.</p>
+                    pleasure along the way.</article>
             </div>
             <div class="soft-skills">
                 <h3>My Soft Skills</h3>
                 <ul>
-                    <li>Python</li>
-                    <li>React</li>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>C++</li>
                 </ul>
             </div>
-            <div class="experience">
                 <h3>Experience</h3>
-                <p>Energetics - 12 years</p>
-                <p>Energetics & Mechanics, Teamlead - 3 years</p>
-                <p>WebPrograming - 6 year (hobby, learning)</p>
-                <p>IOT programming - 6 year (hobby, learning)</p>
-            </div>
+            <ul class="experience">
+                <li>Energetics - 12 years</p>
+                <li>Energetics & Mechanics, Teamlead - 3 years</li>
+                <li>WebPrograming - 6 year (hobby, learning)</li>
+                <li>IOT programming - 6 year (hobby, learning)</li>
+            </ul>
     </section>
     <footer>
     </footer>
