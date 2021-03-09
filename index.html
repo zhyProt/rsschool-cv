@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Ivan Zhymec - CV</title>
-</head>
   <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 
@@ -137,6 +136,7 @@ footer img{
   }
 }
 </style>
+</head>
 <body>
     <header>
         <h1>RESUME</h1>
@@ -166,13 +166,36 @@ footer img{
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
+                    <li>Git</li>
                     <li>JavaScript</li>
                     <li>Python</li>
+                    <li>MongoDb</li>
                     <li>C++</li>
                     <li>Webpack</li>
                     <li>SCSS</li>
                 </ul>
             </div>
+            <div class="my-codee">
+                <h3>My code example</h3>
+                <code>
+                module.exports = function towelSort (matrix) {<br>
+    &emsp;&emsp;result = []<br>
+    &emsp;&emsp;if (matrix === undefined || matrix.length < 1) return result;<br>
+    &emsp;&emsp;&emsp;&emsp;else {<br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;matrix.forEach((element, n) => {<br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;result = n % 2 === 1 ? result.concat(element.reverse()) : result.concat(element); <br>         
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;});<br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;}<br>
+    &emsp;&emsp;return result;<br>
+}
+                </code>
+            </div>
+                <h3>Education</h3>
+            <ul class="experience">
+                <li>Selfeducation</li>
+                <li>SoloLearn JS, Python courses</p>
+                <li>MangodB university MB001, MB110</li>
+            </ul>
                 <h3>Experience</h3>
             <ul class="experience">
                 <li>Energetics - 12 years</p>
